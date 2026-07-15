@@ -1,5 +1,5 @@
 # TokenTrail gateway (data plane)
-FROM node:22-alpine AS build
+FROM node:26-alpine AS build
 RUN corepack enable
 WORKDIR /repo
 COPY . .
@@ -7,7 +7,7 @@ RUN pnpm install --frozen-lockfile
 RUN pnpm db:generate
 RUN pnpm deploy --filter @tokentrail/gateway --prod --legacy /out
 
-FROM node:22-alpine
+FROM node:26-alpine
 ENV NODE_ENV=production
 WORKDIR /app
 COPY --from=build /out .
