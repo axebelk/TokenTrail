@@ -54,8 +54,8 @@ importers:
         specifier: ^5.2.0
         version: 5.10.0
       nodemailer:
-        specifier: ^6.9.0
-        version: 6.10.1
+        specifier: ^9.0.3
+        version: 9.0.3
       prisma:
         specifier: ^6.5.0
         version: 6.19.3(typescript@5.9.3)
@@ -1699,8 +1699,8 @@ packages:
     resolution: {integrity: sha512-wRNIrw4DmVLKQlbgOMdkMx27Wrpzes2hh5Jtbi2bjPd+4wJstWIqP5A+lscnqbm0xxmT5Bpg8Lec5ItEBwx6BQ==}
     engines: {node: '>=18'}
 
-  nodemailer@6.10.1:
-    resolution: {integrity: sha512-Z+iLaBGVaSjbIzQ4pX6XV41HrooLsQ10ZWPUehGmuantvzWoDVBnmsdUcOIDM1t+yPor5pDhVlDESgOMEGxhHA==}
+  nodemailer@9.0.3:
+    resolution: {integrity: sha512-n+YP+NKwR5zRWa60k3GiQ6Q3B4KXCoAw40dAKeCtYn020iNN74aWK2liXIC3ZEATeGql7we3tE3t8QwhY0eskw==}
     engines: {node: '>=6.0.0'}
 
   nypm@0.6.8:
@@ -3630,7 +3630,7 @@ snapshots:
 
   node-releases@2.0.51: {}
 
-  nodemailer@6.10.1: {}
+  nodemailer@9.0.3: {}
 
   nypm@0.6.8:
     dependencies:
